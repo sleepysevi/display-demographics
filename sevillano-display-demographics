@@ -1,0 +1,28 @@
+using System;
+
+class DemoInfo
+{
+    static void Main(string[] args)
+    {
+        string studentId = "22702286";
+        string fullName = "Bill Zaire R. Sevillano";
+        string nickName = "Zaire/Sevi";
+        string gender = "Male";
+        int yearLevel = 2;
+        string homeLocation = "Dun lang sa kanto bai";
+        string course = "Computer Science";
+        string mobileNum = "09143676767";
+        string personalEmail = "pogi123@gmail.com";
+
+        Console.WriteLine("Student ID: " + studentId);
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Nick Name: " + nickName);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearLevel);
+        Console.WriteLine("Home Location: " + homeLocation);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine("Mobile No: " + mobileNum);
+        Console.WriteLine("Personal Email: " + personalEmail);
+
+    }
+}
